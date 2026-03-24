@@ -30,9 +30,17 @@ nav a:hover {
 
 /* HERO SECTION */
 .hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/compressor1.jpg');
+    background-size: cover;        /* 🔥 IMPORTANT */
+    background-position: center;   /* 🔥 IMPORTANT */
+    background-repeat: no-repeat;  /* 🔥 IMPORTANT */
+    
+    height: 100vh;                 /* 🔥 FULL SCREEN HEIGHT */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(to right, #000000, #444);
     color: white;
 }
 
