@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- HERO -->
+<div style="
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/static/images/compressor1.jpg');
+background-size: cover;
+padding: 100px;
+text-align: center;
+color: white;
+">
+<h1>Our Services</h1>
+<p>Complete Air Compressor Solutions</p>
+</div>
+
+<!-- SERVICES -->
+<div style="padding:50px; display:flex; flex-wrap:wrap; justify-content:center; gap:30px;">
+
+<div style="width:300px; background:white; padding:20px; box-shadow:0 0 10px #ccc;">
+<h3>Installation</h3>
+<p>
+We provide professional installation services ensuring optimal performance 
+and safety of your air compressor systems.
+</p>
+</div>
+
+<div style="width:300px; background:white; padding:20px; box-shadow:0 0 10px #ccc;">
+<h3>Maintenance</h3>
+<p>
+Regular maintenance services to improve machine life and ensure 
+smooth and efficient operation.
+</p>
+</div>
+
+<div style="width:300px; background:white; padding:20px; box-shadow:0 0 10px #ccc;">
+<h3>Repair & AMC</h3>
+<p>
+Quick repair services and annual maintenance contracts (AMC)
+for uninterrupted industrial operations.
+</p>
+</div>
+
+<div style="width:300px; background:white; padding:20px; box-shadow:0 0 10px #ccc;">
+<h3>Consultation</h3>
+<p>
+Expert guidance to choose the right compressor based on your 
+industrial requirements.
+</p>
+</div>
+
+</div>
+
+{% endblock %}

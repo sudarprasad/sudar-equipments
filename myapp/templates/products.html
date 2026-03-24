@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h1 style="text-align:center; margin-top:20px;">Our Products</h1>
+
+<div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; padding:30px;">
+
+    <div style="width:300px; background:white; padding:15px; box-shadow:0 0 10px #ccc;">
+        <img src="{% static 'images/compressor1.jpg' %}" style="width:100%;">
+        <h3>5 HP Air Compressor</h3>
+        <p>250 Litres Tank</p>
+        <p>18 CFM Output</p>
+    </div>
+
+    <div style="width:300px; background:white; padding:15px; box-shadow:0 0 10px #ccc;">
+        <img src="{% static 'images/compressor2.jpg' %}" style="width:100%;">
+        <h3>20 HP Screw Compressor</h3>
+        <p>500 Litres Tank</p>
+        <p>80 CFM Output</p>
+    </div>
+
+    <div style="width:300px; background:white; padding:15px; box-shadow:0 0 10px #ccc;">
+        <img src="{% static 'images/dryer.jpg' %}" style="width:100%;">
+        <h3>Air Dryer</h3>
+        <p>Moisture Removal System</p>
+    </div>
+
+</div>
+
+{% endblock %}
